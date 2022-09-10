@@ -7,9 +7,9 @@ Curso: 2022
 <h2>GRUPO 22</h2>
 <h3>Integrantes</h3>
 
-Sasha Toledo toledosasha04@gmail.com
-Lara Giménez laragimenezm@gmail.com
-Francisco Soler fsolerpowell@gmail.com
+Sasha Toledo toledosasha04@gmail.com <br>
+Lara Giménez laragimenezm@gmail.com   <br>
+Francisco Soler fsolerpowell@gmail.com <br>
 
 <h3>Detalles:</h3>
 Se desarrolla este trabajo acorde a las consignas especificadas. Para el mismo se diseñará una sitio web de un hotel situado en Kaanapali en Maui, Hawaii, Estados Unidos. Consistirá de un sitio web estilo *one page*, este constara de una página dos HTML la principal con cinco secciones. El segundo HTML se utilizará cuando el usuario sea redireccionado para realizar una reserva. 
