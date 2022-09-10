@@ -85,15 +85,19 @@ La pagina principal mostrara cuatro secciones:<br><br>
  ![image](https://user-images.githubusercontent.com/101218360/189502501-d70f7e6b-e950-4c2d-b47a-c0f7d4066116.png)
 
  ![image](https://user-images.githubusercontent.com/101218360/189502522-3953e8d3-c79f-404a-96c3-4b79acaf36c7.png)
-
-    
+ 
     <h3>ASPECTOS TECNICOS</h3> <br> <br>
+    
     ● utilización etiquetas semánticas para estructurar el sitio.    <br>
     ● Utilización de al menos un Iframe, íconos ; y fuentes.<br>
     ● Página totalmente responsive con 3 puntos de corte para 3 tamaños de dispositivos distintos.<br>
     ● incorporación de animación<br>
     ● Estructura HTML maquetada.<br>
-    ● API Rest desde JavaScript.    <br>    
+    ● API Rest desde JavaScript.    <br>  
+
+
+    
+  
     
     <h3>MODELO DE HTML</h3> <br> <br>
    
