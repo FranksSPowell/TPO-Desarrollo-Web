@@ -80,19 +80,14 @@ La pagina principal mostrara cuatro secciones:<br><br>
     Datos de medio de pago<br>
     Otros datos para la reserva<br>
     <br>
-    (*) Datos obligatorios de completar
-    
-     <h3>ASPECTOS TECNICOS</h3> <br>
-    
-    <br>
+    ( * ) Datos obligatorios de completar <br> <br>
+    <h3>ASPECTOS TECNICOS</h3> <br> <br>
     ● utilización etiquetas semánticas para estructurar el sitio.    <br>
     ● Utilización de al menos un Iframe, íconos ; y fuentes.<br>
     ● Página totalmente responsive con 3 puntos de corte para 3 tamaños de dispositivos distintos.<br>
     ● incorporación de animación<br>
     ● Estructura HTML maquetada.<br>
-    ● API Rest desde JavaScript.    <br>
-    
-    
+    ● API Rest desde JavaScript.    <br>    
 ARCHIVO CON CONSIGNAS:<br>
 Adjunto encontrara el archivos con las consignas del trabajo practico  
 [TPO Desarrollo Web - HTML CSS JS.pdf](https://github.com/FranksSPowell/TPO-Desarrollo-Web/files/9541302/TPO.Desarrollo.Web.-.HTML.CSS.JS.pdf)
