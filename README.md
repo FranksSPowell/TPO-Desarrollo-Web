@@ -81,6 +81,12 @@ La pagina principal mostrara cuatro secciones:<br><br>
     Otros datos para la reserva<br>
     <br>
     ( * ) Datos obligatorios de completar <br> <br>
+    
+    ![image](https://user-images.githubusercontent.com/101218360/189502501-d70f7e6b-e950-4c2d-b47a-c0f7d4066116.png)
+
+    ![image](https://user-images.githubusercontent.com/101218360/189502522-3953e8d3-c79f-404a-96c3-4b79acaf36c7.png)
+
+    
     <h3>ASPECTOS TECNICOS</h3> <br> <br>
     ● utilización etiquetas semánticas para estructurar el sitio.    <br>
     ● Utilización de al menos un Iframe, íconos ; y fuentes.<br>
@@ -88,6 +94,16 @@ La pagina principal mostrara cuatro secciones:<br><br>
     ● incorporación de animación<br>
     ● Estructura HTML maquetada.<br>
     ● API Rest desde JavaScript.    <br>    
+    
+    <h3>MODELO DE HTML</h3> <br> <br>
+   
+    
+    La imagen mostrada debajo es un modelo de referencia  <br>
+    
+    ![WhatsApp Image 2022-09-03 at 15 00 18](https://user-images.githubusercontent.com/101218360/189501831-da5552db-2f4f-469f-8f71-24d5437ed9ec.jpeg)
+
+    
+   
 ARCHIVO CON CONSIGNAS:<br>
 Adjunto encontrara el archivos con las consignas del trabajo practico  
 [TPO Desarrollo Web - HTML CSS JS.pdf](https://github.com/FranksSPowell/TPO-Desarrollo-Web/files/9541302/TPO.Desarrollo.Web.-.HTML.CSS.JS.pdf)
