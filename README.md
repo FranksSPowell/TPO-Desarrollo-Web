@@ -24,8 +24,8 @@ La pagina principal mostrara cuatro secciones:
   SEGUNDA SECCION (id:index_sec_habi):<br>
   aquí se mostraran las distintas habitaciones del hotel, sus características principales, detalles específicos
   <br>
-  Imagen ilustrativa:
-  
+  Imagen ilustrativa:<br>
+  <br>
   ![image](https://user-images.githubusercontent.com/101218360/189500092-e06aaa3c-a2c6-4367-b12d-361af36b26eb.png)
 
   
@@ -33,8 +33,8 @@ La pagina principal mostrara cuatro secciones:
   TERCERA SECCION (id:index_sec_cerc):<br>
   Un detalle de lugares cercanos al hotel, actividades que se puedan desarrollar en el hotel como en sus alrededores.
   <br>
-  Imagen ilustrativa:
-  
+  Imagen ilustrativa:<br>
+  <br>
   ![image](https://user-images.githubusercontent.com/101218360/189500062-00c842d6-e496-4b1a-8d37-ac6d4f2aebfc.png)
 
   <br>
@@ -51,8 +51,8 @@ La pagina principal mostrara cuatro secciones:
   <br>
    (*) Datos obligatorios de completar
   
-  Imagen ilustrativa del modelo de formulario:
-  
+  Imagen ilustrativa del modelo de formulario:<br>
+  <br>
   ![image](https://user-images.githubusercontent.com/101218360/189499936-d34b71ec-cc12-45b9-be38-3ee3d0e61d42.png)
 <br>
   
@@ -76,7 +76,7 @@ La pagina principal mostrara cuatro secciones:
     Documento de identidad (*) Numero del documento<br>
     Datos de medio de pago<br>
     Otros datos para la reserva<br>
-    
+    <br>
     (*) Datos obligatorios de completar
     
      <h3>ASPECTOS TECNICOS</h3> <br>
