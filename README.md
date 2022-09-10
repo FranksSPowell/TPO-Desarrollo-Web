@@ -17,7 +17,7 @@ Se desarrolla este trabajo acorde a las consignas especificadas. Para el mismo s
 <h3>Estructura:</h3>
 
 <h4>PAGINA PRINCIPAL:</h4>
-La pagina principal mostrara cuatro secciones:
+La pagina principal mostrara cuatro secciones:<br>
   PRIMERA SECCION (id:index_sec_menu):<br>
   esta sección mostrara el menú principal del sitio, links a las diferentes secciones.
   <br>
