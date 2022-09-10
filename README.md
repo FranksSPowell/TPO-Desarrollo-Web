@@ -88,18 +88,16 @@ La pagina principal mostrara cuatro secciones:<br><br>
  
   <h3>ASPECTOS TECNICOS</h3> <br> <br>
     
-    ● utilización etiquetas semánticas para estructurar el sitio.    <br>
-    ● Utilización de al menos un Iframe, íconos ; y fuentes.<br>
-    ● Página totalmente responsive con 3 puntos de corte para 3 tamaños de dispositivos distintos.<br>
-    ● incorporación de animación<br>
-    ● Estructura HTML maquetada.<br>
-    ● API Rest desde JavaScript.    <br>  
+ ● utilización etiquetas semánticas para estructurar el sitio.    <br>
+ ● Utilización de al menos un Iframe, íconos ; y fuentes.<br>
+ ● Página totalmente responsive con 3 puntos de corte para 3 tamaños de dispositivos distintos.<br>
+ ● incorporación de animación<br>
+ ● Estructura HTML maquetada.<br>
+ ● API Rest desde JavaScript.    <br>  
 
 
     
-  
-    
-    <h3>MODELO DE HTML</h3> <br> <br>
+  <h3>MODELO DE HTML</h3> <br> <br>
    
     
     La imagen mostrada debajo es un modelo de referencia  <br>
