@@ -17,16 +17,17 @@ Se desarrolla este trabajo acorde a las consignas especificadas. Para el mismo s
 <h3>Estructura:</h3>
 
 <h4>PAGINA PRINCIPAL:</h4>
-La pagina principal mostrara cuatro secciones:<br>
+La pagina principal mostrara cuatro secciones:<br><br>
   PRIMERA SECCION (id:index_sec_menu):<br>
   esta sección mostrara el menú principal del sitio, links a las diferentes secciones.
-  <br>
+  <br><br>
   SEGUNDA SECCION (id:index_sec_habi):<br>
   aquí se mostraran las distintas habitaciones del hotel, sus características principales, detalles específicos
   <br>
-  Imagen ilustrativa:<br>
+  Imagen ilustrativa: <br>
   <br>
-  ![image](https://user-images.githubusercontent.com/101218360/189500092-e06aaa3c-a2c6-4367-b12d-361af36b26eb.png)
+  
+![image](https://user-images.githubusercontent.com/101218360/189500092-e06aaa3c-a2c6-4367-b12d-361af36b26eb.png)
 
   
   <br>
@@ -35,6 +36,8 @@ La pagina principal mostrara cuatro secciones:<br>
   <br>
   Imagen ilustrativa:<br>
   <br>
+  <br>
+  
   ![image](https://user-images.githubusercontent.com/101218360/189500062-00c842d6-e496-4b1a-8d37-ac6d4f2aebfc.png)
 
   <br>
