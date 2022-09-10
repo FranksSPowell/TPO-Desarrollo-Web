@@ -100,9 +100,9 @@ La pagina principal mostrara cuatro secciones:<br><br>
   <h3>MODELO DE HTML</h3> <br> <br>
    
     
-    La imagen mostrada debajo es un modelo de referencia  <br>
+La imagen mostrada debajo es un modelo de referencia  <br>
     
-    ![WhatsApp Image 2022-09-03 at 15 00 18](https://user-images.githubusercontent.com/101218360/189501831-da5552db-2f4f-469f-8f71-24d5437ed9ec.jpeg)
+![WhatsApp Image 2022-09-03 at 15 00 18](https://user-images.githubusercontent.com/101218360/189501831-da5552db-2f4f-469f-8f71-24d5437ed9ec.jpeg)
  
  
 ARCHIVO CON CONSIGNAS:<br>
