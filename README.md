@@ -82,9 +82,9 @@ La pagina principal mostrara cuatro secciones:<br><br>
     <br>
     ( * ) Datos obligatorios de completar <br> <br>
     
-    ![image](https://user-images.githubusercontent.com/101218360/189502501-d70f7e6b-e950-4c2d-b47a-c0f7d4066116.png)
+ ![image](https://user-images.githubusercontent.com/101218360/189502501-d70f7e6b-e950-4c2d-b47a-c0f7d4066116.png)
 
-    ![image](https://user-images.githubusercontent.com/101218360/189502522-3953e8d3-c79f-404a-96c3-4b79acaf36c7.png)
+ ![image](https://user-images.githubusercontent.com/101218360/189502522-3953e8d3-c79f-404a-96c3-4b79acaf36c7.png)
 
     
     <h3>ASPECTOS TECNICOS</h3> <br> <br>
