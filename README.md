@@ -20,26 +20,27 @@ Se desarrolla este trabajo acorde a las consignas especificadas. Para el mismo s
 La pagina principal mostrara cuatro secciones:
   PRIMERA SECCION (id:index_sec_menu):<br>
   esta sección mostrara el menú principal del sitio, links a las diferentes secciones.
-  
+  <br>
   SEGUNDA SECCION (id:index_sec_habi):<br>
   aquí se mostraran las distintas habitaciones del hotel, sus características principales, detalles específicos
-  
+  <br>
   Imagen ilustrativa:
   
   ![image](https://user-images.githubusercontent.com/101218360/189500092-e06aaa3c-a2c6-4367-b12d-361af36b26eb.png)
 
   
-  
+  <br>
   TERCERA SECCION (id:index_sec_cerc):<br>
   Un detalle de lugares cercanos al hotel, actividades que se puedan desarrollar en el hotel como en sus alrededores.
-  
+  <br>
   Imagen ilustrativa:
   
   ![image](https://user-images.githubusercontent.com/101218360/189500062-00c842d6-e496-4b1a-8d37-ac6d4f2aebfc.png)
 
-  
+  <br>
   CUARTA SECCION (id:index_sec_cont):<br>
   Esta sección mostrara un formulario de contacto donde se podrán enviar consultas específicas. <br>
+    <br>
     FORMULARIO:<br>
     Nombre: (*) Nombre completo de la persona que quiere hacer la consulta <br>
     Email: (*)  Email para mantener una via de contacto<br>
@@ -47,15 +48,16 @@ La pagina principal mostrara cuatro secciones:
     Tema : (*) Una lista desplegable con los diferentes temas de consulta.<br>
     Comentarios: comentario que quiera realizar la persona que se contacta<br>
     Check box: Acepto la política de privacidad y datos. (*)<br>
-  
+  <br>
    (*) Datos obligatorios de completar
   
   Imagen ilustrativa del modelo de formulario:
   
   ![image](https://user-images.githubusercontent.com/101218360/189499936-d34b71ec-cc12-45b9-be38-3ee3d0e61d42.png)
-
+<br>
   
   QUINTA SECCION (id:index_sec_info)<br>
+  <br>
   mostrará links a redes sociales, teléfonos de contacto, ubicación y otra información relevante
   
   <h4>PAGINA RESERVAS:</h4>
