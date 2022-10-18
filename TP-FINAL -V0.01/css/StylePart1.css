@@ -1,0 +1,229 @@
+
+.contenedor {
+	width: 95%;
+    max-width: 1500px;
+	margin: 20px auto;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, auto);
+    
+	grid-template-areas: "header  header header"
+						 "sidebar contenido contenido"
+						 "sidebar widget-2 widget-1"
+						 "footer footer footer";
+}
+
+#backPhoto{
+    background-position: center center;
+    background-repeat: repeat-x;
+    animation: animatedBackground 20s linear infinite;
+    background-size: cover;
+}
+
+.contenedor > div,
+.contenedor .header,
+.contenedor .contenido,
+.contenedor .sidebar,
+.contenedor .footer {
+	padding: 20px;
+	border-radius: 4px;
+}
+
+.contenedor .header {
+	background: #12203e9f;
+	color: #fff;
+	grid-area: header;
+}
+
+.LogoIMG{
+    max-height: 80px;
+	object-fit: cover;
+
+}
+
+
+
+.contenedor .contenido {
+	grid-area: contenido;
+}
+
+.contenedor .sidebar {
+	grid-column: 3 / 4;
+    max-width: 300px;
+	background: #2030387a;
+	text-align: center;
+	display: flex;
+    flex-direction:column;
+	align-items: center;
+	justify-content: top;
+	min-height: 100px;
+	grid-area: sidebar;
+}
+
+.checkROW{
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    text-align: center;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+
+.CheckTitle{
+    color: #ffffff;
+}
+
+
+.checkCOL{
+    flex-direction:column;
+    text-align: center;
+    width: 100%;
+}
+
+.CheckImput{
+    text-align: center;
+    min-height: 20px;
+    width: 90%;
+}
+
+.checkCOL label{
+    font-size: 1.3em;
+}
+
+.checkButton{
+    width: 100%;
+    background-color: #ec5b14 !important;
+    border-color: #ec5b14 !important;
+    min-height: 30px;
+}
+
+.checkReservation{
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100px;
+}
+
+
+.contenedor .widget-1,
+.contenedor .widget-2 {
+	background: #0213248c;
+	color: #fff;
+	height: 100px;
+	max-width: 350px;
+	text-align: center;
+	padding: 0px;
+	/* display: flex; */
+	/* align-items: center;
+	justify-content: center; */
+}
+
+
+.widget{
+    align-self:flex-end
+}
+
+.RowWidget1:first-child{
+	max-height: 33px;
+}
+
+.RowWidget1:nth-child(2){
+	max-height: 67px;
+}
+
+
+
+.contenedor .widget-1 {
+	grid-area: widget-1;
+	display: flex ;
+	flex-direction: column;
+	
+}
+
+.RowWidget1{
+	margin-top: 2px;
+	align-items:center;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	
+}
+
+.UbicaFormt{
+	font-size: 2em;
+	text-align: center;
+
+}
+
+.ColRowWidget1{
+	height: auto;
+}
+
+.Temperature{
+	font-size: 3.5em;
+}
+
+.ColRowWidget1IMG img{
+	max-width:70%;
+	max-height:70%;
+}
+
+.contenedor .widget-2 {
+	grid-area: widget-2;
+	display: none ;
+	flex-direction: column;
+	background: none;
+}
+
+
+
+.contenedor .footer {
+	background: #12203e9f;
+	color: #fff;
+    text-align: center;
+	grid-area: footer;
+}
+
+
+@media screen and (max-width: 768px){
+	.contenedor {
+		grid-template-areas: "header header header"
+						 "contenido contenido contenido"
+                         "sidebar sidebar widget-1"
+						 "footer footer footer";
+	}
+    .contenedor .sidebar {
+        max-width: 100%;
+        min-height: 100px;
+	}
+	
+	}
+@media screen and (max-width: 450px){
+	.LogoIMG{
+	width: 250px;
+	
+	}
+
+	.contenedor {
+		grid-template-areas: "header header header"
+						 "contenido contenido contenido"
+                         "sidebar sidebar sidebar"
+						 "widget-1 widget-1 widget-1"
+						 /* "widget-2 widget-2 widget-2" */
+ 
+						 "footer footer footer";
+				}
+    .contenedor .sidebar {	
+        max-width: 100%;
+        min-height: 100px;
+		}
+	.contenedor .widget-1{
+		max-width: 450px;
+	}
+
+	}

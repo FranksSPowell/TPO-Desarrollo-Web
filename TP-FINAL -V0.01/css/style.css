@@ -1,0 +1,377 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.index_sec_habi{
+    width: 100%;
+    background-color: #FFF;
+    padding: 10px 40px;
+    max-width: 1400px;
+    margin: auto;
+
+    
+}
+.carousel_container{
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ti{
+    /* max-width: 1120px; */
+    width: 100%;
+    padding: 40px 0;
+    font-size: 3em;
+    color: #333;
+
+
+}
+.slide-container{
+  /* max-width: 1120px; */
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.room{
+  border-radius: 25px;
+  background-color: #EFEFEF;
+}
+.image-content,
+.room-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+/* .overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #4070F4;
+  border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #4070F4;
+}
+.overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+} */
+.room-image{
+  position: relative;
+  height: 250px;
+  /* width: 350px; */
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+}
+.room-image .room-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  /* border-radius: 50%;
+  border: 4px solid #4070F4; */
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #888888;
+  border-radius: 6px;
+  margin: 15px 14px 5px 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button1_room{
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #888888;
+    border-radius: 6px;
+    margin: 0px 14px 10px 14px;
+    cursor: pointer;
+    /* transition: all 3s ease; */
+  }
+
+
+.button:hover{
+  background: #114df1;
+}
+
+.button1_room:hover{
+    background: #114df1;
+}
+
+
+.swiper-navBtn{
+  color: #1d1d1d;
+  transition: color 0.5s ease;
+}
+.swiper-navBtn:hover{
+  color: #000000;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: rgba(0, 0, 0, 0.548);
+  height: 17px;
+  width: 17px;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: rgba(7, 7, 7, 0.733);
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 519px) {
+    .slide-content{
+      margin: 0 10px;
+    }
+    .swiper-navBtn{
+      display: none;
+    }
+    
+    .index_sec_habi{
+        min-height: 100vh;
+        background-color: #4c913e;
+        padding: 0;
+    
+    }
+    .columna_1{
+     display: none;
+    }
+    
+  }
+
+.table__container{
+    border-collapse: collapse;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-width: 320px;
+    margin: 30px;
+
+
+}
+
+.contenido{
+margin-top: 10px;
+}
+
+.table_head{
+    text-align: left;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+tbody tr td{
+  
+    border-left: 0;
+    border-right: 0;
+    border-top: 2px solid #9b9b9b;
+    
+}
+
+
+tr{
+    height: 50px;
+}
+
+.columna_1{
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 15px;
+    max-width: 300px;
+    background-color: #ccc;
+    color: #f2f2f2;
+    width: 300px;
+    font-size: 1.5em;
+
+}
+
+.columna_2{
+    padding-left: 15px;
+    font-size: 1.5em;
+}
+
+
+
+/* MODAL CSS */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: rgb(0, 0, 0);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color: #888888;
+  color: white;
+  text-align: left;
+}
+
+/* Modal Body */
+.modal-body {
+  padding: 2px 16px;
+  height:fit-content;
+
+}
+
+.modal-body img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+
+
+}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #888888;
+  color: white;
+  
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  top: 30%;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  /* min-height: 400px; */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+.modal_h2{
+  margin: 3px;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: 30%; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+#table_modal{
+background-color:#d8d8d8; ;
+width: 100%;
+float: left;
+
+
+}
+
+#table_modal tr{
+
+ width: 100%;
+  vertical-align: middle;
+  
+} 
+
+#table_modal tr td{
+  text-align:left;
+  width: 2%;
+  vertical-align: middle;
+  padding-left: 2em;
+  overflow: hidden;
+  
+}
