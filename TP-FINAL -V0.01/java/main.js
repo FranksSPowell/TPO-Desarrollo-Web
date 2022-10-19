@@ -23,8 +23,9 @@ telf.onkeyup = function(e) {
 //Enviar formulario
 
 console.log("funcionando")
+const alertSuccess = document.getElementById('alertSuccess')
 const formulario = document.getElementById("formulario");       //formulario
-const userName = document.getElementById("formExample1");       //nombre y apellido
+const userName = document.getElementById("form4Example1");       //nombre y apellido
 const userEmail = document.getElementById("form4Example2");     //email
 const userTelf = document.getElementById("telf");               //telefono
 
@@ -36,12 +37,19 @@ const mostrarMensajeExito = () => {
     alertSuccess.textContent = "Mensaje enviado con éxito";
     alertSuccess.style.background = "Green";
     alertSuccess.style.color = "White";
+    alertSuccess.style.fontSize ='8px';
+    alertSuccess.style.height = '30px';
+    alertSuccess.style.borderRadius = '5px';
+
 };
 const mostrarMensajeSoloLetras = () => {
     alertSuccess.classList.remove("d-none");
-    alertSuccess.textContent = "El nombre solo puede tener letras";
+    alertSuccess.textContent = "El nombre solo puede contener letras, intente nuevamente por favor.";
     alertSuccess.style.background = "Red";
     alertSuccess.style.color = "White";
+    alertSuccess.style.height = '30px';
+    alertSuccess.style.fontSize = '8px';
+    alertSuccess.style.borderRadius = '5px'
 };
 
 
