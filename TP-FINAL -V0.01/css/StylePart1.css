@@ -59,6 +59,7 @@
 	justify-content: top;
 	min-height: 100px;
 	grid-area: sidebar;
+	color: #fff;
 }
 
 .checkROW{

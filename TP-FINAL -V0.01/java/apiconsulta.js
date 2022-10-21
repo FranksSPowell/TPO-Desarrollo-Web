@@ -1,6 +1,6 @@
 
 
-const ApiURL="x"+'https://api.weatherbit.io/v2.0/current?lat=20.924472695815183&lon=-156.69381264787737&key=7893b5fbf8df49b0bf23d58a38355747'
+const ApiURL='https://api.weatherbit.io/v2.0/current?lat=20.924472695815183&lon=-156.69381264787737&key=7893b5fbf8df49b0bf23d58a38355747'
 
 async function obtenerClima() {
     try {

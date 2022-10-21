@@ -60,29 +60,7 @@
   row-gap: 5px;
   padding: 25px 0;
 }
-/* .overlay{
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #4070F4;
-  border-radius: 25px 25px 0 25px;
-}
-.overlay::before,
-.overlay::after{
-  content: '';
-  position: absolute;
-  right: 0;
-  bottom: -40px;
-  height: 40px;
-  width: 40px;
-  background-color: #4070F4;
-}
-.overlay::after{
-  border-radius: 0 25px 0 0;
-  background-color: #FFF;
-} */
+
 .room-image{
   position: relative;
   height: 250px;
@@ -172,35 +150,7 @@
   width: 20px;
 }
 
-@media screen and (max-width: 768px) {
-  .slide-content{
-    margin: 0 10px;
-  }
-  .swiper-navBtn{
-    display: none;
-  }
-  
-}
 
-@media screen and (max-width: 519px) {
-    .slide-content{
-      margin: 0 10px;
-    }
-    .swiper-navBtn{
-      display: none;
-    }
-    
-    .index_sec_habi{
-        min-height: 100vh;
-        background-color: #4c913e;
-        padding: 0;
-    
-    }
-    .columna_1{
-     display: none;
-    }
-    
-  }
 
 .table__container{
     border-collapse: collapse;
@@ -208,7 +158,7 @@
     padding-bottom: 15px;
     min-width: 320px;
     margin: 30px;
-
+  
 
 }
 
@@ -218,9 +168,12 @@ margin-top: 10px;
 
 .table_head{
     text-align: left;
-
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.TableTitle{
+  font-size: 2em;
 }
 
 tbody tr td{
@@ -242,7 +195,6 @@ tr{
     padding-left: 15px;
     max-width: 300px;
     background-color: #ccc;
-    color: #f2f2f2;
     width: 300px;
     font-size: 1.5em;
 
@@ -254,30 +206,76 @@ tr{
 }
 
 
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+  
+  .columna_1{
+  width: auto ;
+  min-width: 150px;
+  }
+
+}
+
+@media screen and (max-width: 519px) {
+    .slide-content{
+      margin: 0 10px;
+    }
+    .swiper-navBtn{
+      display: none;
+    }
+    
+    .index_sec_habi{
+        min-height: 100vh;
+        background-color: #9b9b9b;
+        padding: 0;
+    
+    }
+
+    .table__container{
+      min-width: 200px;
+    }
+    .columna_1{
+     display: none;
+     
+    }
+    .columna_2{
+      border-top:1px solid #000000 ;
+      border-bottom: 1px solid #000000;
+      padding: 0px;
+      width: auto;
+    }
+    
+  }
+
 
 /* MODAL CSS */
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none;
+  position: fixed; 
+  z-index: 1; 
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
 }
 
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
+  margin: 5% auto; 
+  padding: 10px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 80%; 
 }
 
 /* The Close Button */
@@ -347,15 +345,17 @@ tr{
   margin: 3px;
 }
 
-/* Add Animation */
+/* ANIMACION */
 @keyframes animatetop {
-  from {top: 30%; opacity: 0}
+  from {top: 10%; opacity: 0}
   to {top: 0; opacity: 1}
 }
+
 #table_modal{
 background-color:#d8d8d8; ;
 width: 100%;
 float: left;
+border-radius: 10px;
 
 
 }
