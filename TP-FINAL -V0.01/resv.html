@@ -19,139 +19,159 @@
             </header>
     
             <main class="contenido">
-                <h1>Contenido</h1>
+                <h1>Habitaciones</h1>
                 
-                <div class="cuarto">
-                    <div class="roomContainer"><img class="RoomImgeIMG" src="scr/room/image1.jpg" alt="" srcset=""></div>
+                <div class="cuarto HAB1CUARTO" id="HAB1CUARTO" onclick="PayRoom(0)">
+                    <div class="roomContainer">
+                        <img class="RoomImgeIMG" src="scr/room/image1.jpg" alt="" srcset="">
+                    </div>
                     <div class="roomDescription">
                         <h2 class="name">Habitación Deluxe</h2>
                         <p class="RoomLongDesc">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                     </div>
-                    <div class="roomPrice"><p>150USD</p></div>
+                    <div class="roomPrice"><p class="PreciRoom"id="HAB1">150USD</p></div>
                 </div>
-                <div class="cuarto">
+                <div class="cuarto HAB2CUARTO" id="HAB2CUARTO" onclick="PayRoom(1)">
                     <div class="roomContainer"><img class="RoomImgeIMG" src="scr/room/image2.jpg" alt="" srcset=""></div>
                     <div class="roomDescription">
                         <h2 class="name">Habitación Deluxe Doble</h2>
                         <p class="RoomLongDesc">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                     </div>
-                    <div class="roomPrice"><p>150USD</p></div>
+                    <div class="roomPrice"><p class="PreciRoom"id="HAB2">150USD</p></div>
                 </div>
-                <div class="cuarto">
+                <div class="cuarto HAB3CUARTO" id="HAB3CUARTO" onclick="PayRoom(2)">
                     <div class="roomContainer"><img class="RoomImgeIMG" src="scr/room/image3.jpg" alt="" srcset=""></div>
                     <div class="roomDescription">
                         <h2 class="name">Suite</h2>
                         <p class="RoomLongDesc">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                     </div>
-                    <div class="roomPrice"><p>150USD</p></div>
+                    <div class="roomPrice"><p class="PreciRoom"id="HAB3">150USD</p></div>
                 </div>
-                <div class="cuarto">
+                <div class="cuarto HAB4CUARTO" id="HAB4CUARTO" onclick="PayRoom(3)">
                     <div class="roomContainer"><img class="RoomImgeIMG" src="scr/room/image4.jpg" alt="" srcset=""></div>
                     <div class="roomDescription">
                         <h2 class="name">Gran Suite</h2>
                         <p class="RoomLongDesc">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                     </div>
-                    <div class="roomPrice"><p>150USD</p></div>
+                    <div class="roomPrice"><p class="PreciRoom"id="HAB4">150USD</p></div>
                 </div>
-                <div class="cuarto">
+                <div class="cuarto HAB5CUARTO" id="HAB5CUARTO" onclick="PayRoom(4)">
                     <div class="roomContainer"><img class="RoomImgeIMG" src="scr/room/image5.jpg" alt="" srcset=""></div>
                     <div class="roomDescription">
                         <h2 class="name">Presidential Suite</h2>
                         <p class="RoomLongDesc">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                     </div>
-                    <div class="roomPrice"><p>150USD</p></div>
+                    <div class="roomPrice"><p class="PreciRoom"id="HAB5">150USD</p></div>
                 </div>
 
-
+          
             </main>
     
-            <aside class="sidebar">
-                <h3>SIDEBAR</h3>
-                <label for="customRange3" class="form-label">Example range</label>
-                <input type="range" class="form-range" min="0" max="5" step="1" id="customRange3">
-                
+            <aside class="sidebarRes">
+                <h3>Filtros</h3>
+                <div>
+                    <div class="SidRow DateCheck">
+                        <div class="SidCOL">
+                            <label for="checkin">Entrada</label>
+                            <input onchange="Fecha()"class="CheckImput" type="date" id="checkin">
+                        </div>
+                        <div class="SidkCOL">
+                            <label for="checkin">Salida</label>
+                            <input onchange="Fecha()" class="CheckImput" type="date" id="checkOut">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="SidRow">
+                    <strong>Estrellas  </strong>
                      <br>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
-                    <label class="form-check-label" for="flexCheckDefault">
-                      5 Estrellas
-                    </label>
+                        <div class="form-check">
+                            <input onclick="Estrellas(4)" type="checkbox" value="" id="CheckBoxHAB5" checked>
+                            <label class="form-check-label" for="flexCheckDefault">
+                            5 Estrellas
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input onclick="Estrellas(3)" type="checkbox" value="" id="CheckBoxHAB4" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                            4 Estrellas
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input onclick="Estrellas(2)" type="checkbox" value="" id="CheckBoxHAB3" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                            3 Estrellas
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input onclick="Estrellas(1)" type="checkbox" value="" id="CheckBoxHAB2" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                            2 Estrellas
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input onclick="Estrellas(0)" type="checkbox" value="" id="CheckBoxHAB1" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                            1 Estrellas
+                            </label>
+                        </div>
                 </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                    <label class="form-check-label" for="flexCheckChecked">
-                      4 Estrellas
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                    <label class="form-check-label" for="flexCheckChecked">
-                      3 Estrellas
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                    <label class="form-check-label" for="flexCheckChecked">
-                      2 Estrellas
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                    <label class="form-check-label" for="flexCheckChecked">
-                      1 Estrellas
-                    </label>
-                </div>
+                    <br>
+                    
+                <div class="SidRow">
+                        <h2>Características</h2>
+                        <div class="form-check">
+                            <input onclick="Caract('parking')" class="form-check-input" type="checkbox" value="" id="Checkparking" >
+                            <label class="form-check-label" for="flexCheckChecked">
+                            Parking
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input onclick="Caract('aireC')" class="form-check-input" type="checkbox" value="" id="CheckaireC" >
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Aire acondicionado
+                            </label>
+                        </div>
 
+                        <div class="form-check">
+                            <input onclick="Caract('wifi')"class="form-check-input" type="checkbox" value="" id="Checkwifi" >
+                            <label class="form-check-label" for="flexCheckChecked">
+                            Wifi incluido
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input onclick="Caract('Jacuzzi')" class="form-check-input" type="checkbox" value="" id="CheckJacuzzi" >
+                            <label class="form-check-label" for="flexCheckChecked">
+                            Jacuzzi
+                            </label>
+
+                        </div>
+                </div>
                 <br>
 
-                <h2>Características</h2>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                    <label class="form-check-label" for="flexCheckChecked">
-                    Parking
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                    <label class="form-check-label" for="flexCheckChecked">
-                        Aire acondicionado
-                    </label>
-                </div>
+                <div class="SidRow">
+                    <h2>Vista</h2>
+                    <div class="form-check">
+                        <input onclick="VistaRoom('cualquiera')" type="radio" name="flexRadioDefault" id="RadioCualquiera"checked>
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        Cualquiera
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input onclick="VistaRoom('montana')" type="radio" name="flexRadioDefault" id="RadioMontana" >
+                        <label class="form-check-label" for="flexRadioDefault2">
+                        Montaña
+                        </label>
+                    </div>
 
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                    <label class="form-check-label" for="flexCheckChecked">
-                    Wifi incluido
-                    </label>
+                    <div class="form-check">
+                        <input onclick="VistaRoom('playa')" type="radio" name="flexRadioDefault" id="RadioPlaya">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                        Playa
+                        </label>
+                    </div>
                 </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                    <label class="form-check-label" for="flexCheckChecked">
-                    Jacuzzi
-                    </label>
-                </div>
-                <br>
-                <h2>Vista</h2>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Cualquiera
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                    <label class="form-check-label" for="flexRadioDefault2">
-                      Montaña
-                    </label>
-                  </div>
-
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                    <label class="form-check-label" for="flexRadioDefault2">
-                      Playa
-                    </label>
-                  </div>
 
 
             </aside>
@@ -165,11 +185,17 @@
             </div> -->
             
             <footer class="footer">
-                <h3>FOOTER</h3>
+                <p class="mb-1">&copy; 2017–2022 Hoomaha Hotel</p>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="https://twitter.com/hotelmaui?=us">Twitter</a></li>
+                    <li class="list-inline-item"><a href="https://instagram.com/hotelmaui=us">Instagram</a></li>
+                    <li class="list-inline-item"><a href="https://https://www.tripadvisor.com.ar/Maui_Hawaii-Vacations.html">Tripadvisor</a></li>
+                  </ul>
+
             </footer>
         </div>
     </body>
     
-
+    <script src="java/roomReser.js"></script>
     </section>
 </html>
