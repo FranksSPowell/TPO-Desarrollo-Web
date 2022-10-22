@@ -154,20 +154,24 @@ html{
     padding: 0px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+
+    text-decoration: none;
  }
 
-.links-contacto img{
-   height: 30px;
-   width: auto;
-   margin: 20px auto;
-   color: #203038;
-   transition: all 0.5s ease 0s;
-}
-.links-contacto img:hover{
-    height: 35px;
-    width: auto;
-    margin: 0px auto;
-}
+
+.links-contacto a i{
+    margin: 20px auto;
+    color: #203038;
+    transition: all 0.5s ease 0s;
+    font-size: 28px;
+ }
+ .links-contacto a i:hover{
+    font-size: 35px;
+     margin: 0px auto;
+ }
 
 
 .links-social a{
