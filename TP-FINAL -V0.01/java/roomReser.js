@@ -1,5 +1,5 @@
 
-alert("CON EL FIN DE PROBAR EL EL CODIGO -ALGUNAS FECHA OCUPADAS 24/12/2022 y 19/11/2032");
+// alert("CON EL FIN DE PROBAR EL EL CODIGO -ALGUNAS FECHA OCUPADAS 24/12/2022 y 19/11/2032");
 
 let Romms=[
     {
@@ -167,7 +167,9 @@ function Caract(params) {
 
 
 
-function Fecha(params) {
+function Fecha() {
+
+  
 
     let CheckIn = document.getElementById("checkin");
     let CheckOut = document.getElementById("checkOut");
@@ -235,7 +237,7 @@ function Fecha(params) {
 
 
 function PayRoom(RoomNumber) {
-
+    
     let CheckIn = document.getElementById("checkin");
     let CheckOut = document.getElementById("checkOut");
     const result = CheckIn.value
@@ -276,5 +278,17 @@ function PayRoom(RoomNumber) {
     }
 }
 
-
+let Verify=localStorage.getItem("Verify")
 GetPrice();
+
+if (Verify) {
+    let Entrada=localStorage.getItem("Entrada")
+    let Salida=localStorage.getItem("Salida")
+    document.getElementById("checkin").value = Entrada;
+    document.getElementById("checkOut").value = Salida;
+
+    localStorage.setItem("Verify",false)
+    Fecha()
+}
+
+
