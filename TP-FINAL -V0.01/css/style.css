@@ -1,10 +1,10 @@
 /* Google Fonts - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -280,7 +280,7 @@ tr{
 
 /* The Close Button */
 .close {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -329,7 +329,7 @@ tr{
 /* Modal Content */
 .modal-content {
   position: relative;
-  top: 30%;
+  top: 10%;
   background-color: #fefefe;
   margin: auto;
   padding: 0;
@@ -342,13 +342,13 @@ tr{
   animation-duration: 0.4s
 }
 .modal_h2{
-  margin: 3px;
+  margin: 15px;
 }
 
 /* ANIMACION */
 @keyframes animatetop {
-  from {top: 10%; opacity: 0}
-  to {top: 0; opacity: 1}
+  from {top: -30%; opacity: 0}
+  to {top: 30%; opacity: 1}
 }
 
 #table_modal{
@@ -356,6 +356,7 @@ background-color:#d8d8d8; ;
 width: 100%;
 float: left;
 border-radius: 10px;
+font-size: 1.5em;
 
 
 }

@@ -86,12 +86,14 @@
 
 .CheckImput{
     text-align: center;
-    min-height: 20px;
+    min-height: 25px;
     width: 90%;
+	font-size: 1.2em;
+	min-width: 120px;
 }
 
 .checkCOL label{
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 .checkButton{
@@ -99,6 +101,9 @@
     background-color: #ec5b14 !important;
     border-color: #ec5b14 !important;
     min-height: 30px;
+	font-size: 1.5em;
+	font-weight: bold;	
+	color: #fff;
 }
 
 .checkReservation{
