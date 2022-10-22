@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Fasthand" ;
+    src: url('fonts/Fasthand/Fasthand-Regular.ttf');
+   
+}
+
 * {
 	margin: 0;
 	padding: 0;
