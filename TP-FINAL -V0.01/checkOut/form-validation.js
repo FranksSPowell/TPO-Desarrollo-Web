@@ -9,11 +9,15 @@
       if (!form.checkValidity()) {
         event.preventDefault()
         event.stopPropagation()
+        console.log("aca 1");
       }
 
       form.classList.add('was-validated')
+      console.log("aca FINAL");
     }, false)
   })
+  console.log("aca FIN");
+
 })()
 
 
