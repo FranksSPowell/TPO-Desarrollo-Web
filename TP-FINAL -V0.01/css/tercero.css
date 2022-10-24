@@ -1,10 +1,6 @@
-*{
-    margin: 0;
+.index_sec_cerc{
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
-}
 
-html{
-    font-size: 62.5%;
 }
 
 .cerca-container{
@@ -99,13 +95,13 @@ html{
 .form-titulo{
     margin: 30px;
 }
+
 .form-titulo h2{
     font-size: 30px;
     color: #203038;
     text-align: center;
-    font-family: "Fasthand" ;
-    
-
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
 }
 .form-titulo p{
     font-size: 20px;
