@@ -45,7 +45,7 @@ body {
 }
 
 .contenedor .header {
-	background: #12203E;
+	background: #d3ad7cd4;
 	color: #fff;
 	grid-area: header;
 }
@@ -55,6 +55,7 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+	background-color:#EBE3DD ;
 }
 
 .contenido .cuarto{
@@ -86,7 +87,7 @@ body {
 
 }
 .roomPrice{
-    background-color: #232430;
+    background-color: #d3ad7cd4;
     color: #fff;
     text-align: center;
 	min-width: 100px;
@@ -112,14 +113,14 @@ body {
 
 .name{
     font-size: 1.5em;
-	border-bottom: 1px solid gray
+	border-bottom: 1px solid #C9C5BC
 }
 .RoomLongDesc{
     font-size: 1em;
 }
 
 .contenedor .sidebarRes {
-	background: #63646430;
+	background: #d3ad7cd4;
 	text-align: left;
 	display: flex;
     flex-direction:column;
@@ -130,10 +131,11 @@ body {
 	justify-content: space-evenly;
 	align-items:flex-start;
 	grid-area: sidebarRes;
+	color: #403636;
 }
 
 .SidRow{	
-	border-bottom: 2px dotted #dfdfdf;
+	border-bottom: 2px dotted #C9C5BC;
 	display: flex;
 	flex-direction: column;
 	justify-content:flex-start;
@@ -168,7 +170,7 @@ body {
 } */
 
 .contenedor .footer {
-	background: #12203E;
+	background: #d3ad7cd4;
 	color: #fff;
 	grid-area: footer;
 	text-align: center;

@@ -1,7 +1,3 @@
-.index_sec_menu{
-	font-family: 'Roboto', sans-serif;
-}
-
 
 .contenedor {
 	width: 95%;
@@ -11,7 +7,8 @@
 	grid-gap: 20px;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(4, auto);
-    
+    padding: 15px;
+	border-radius: 10px;
 	grid-template-areas: "header  header header"
 						 "sidebar contenido contenido"
 						 "sidebar widget-2 widget-1"
@@ -35,7 +32,7 @@
 }
 
 .contenedor .header {
-	background: #12203e9f;
+	background: #d3ad7cd4;
 	color: #fff;
 	grid-area: header;
 }
@@ -55,7 +52,7 @@
 .contenedor .sidebar {
 	grid-column: 3 / 4;
     max-width: 300px;
-	background: #2030387a;
+	background: #d3ad7cd4;
 	text-align: center;
 	display: flex;
     flex-direction:column;
@@ -102,8 +99,8 @@
 
 .checkButton{
     width: 100%;
-    background-color: #ec5b14 !important;
-    border-color: #ec5b14 !important;
+    background-color: #BC8D47 !important;
+    border-color: #BC8D47 !important;
     min-height: 30px;
 	font-size: 1.5em;
 	font-weight: bold;	
@@ -111,18 +108,21 @@
 }
 
 .checkReservation{
-    color: #3c763d;
-    background-color: #dff0d8;
-    border-color: #d6e9c6;
+    color: #8e7b6b;
+    background-color: #F1E0BB;
+    border-color: #F1E0BB;
     justify-content: space-evenly;
     align-items: center;
     min-height: 100px;
+	font-size: 1.5em;
+	font-weight: bold;
+	
 }
 
 
 .contenedor .widget-1,
 .contenedor .widget-2 {
-	background: #0213248c;
+	background: #d3ad7cd4;
 	color: #fff;
 	height: 100px;
 	max-width: 350px;
@@ -193,7 +193,7 @@
 
 
 .contenedor .footer {
-	background: #12203e9f;
+	background: #d3ad7cd4;
 	color: #fff;
     text-align: center;
 	grid-area: footer;

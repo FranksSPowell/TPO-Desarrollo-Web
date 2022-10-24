@@ -3,7 +3,7 @@
   width: 100%;
   background-color: #FFF;
   padding: 10px 40px;
-  max-width: 1400px;
+  max-width: 1500px;
   margin: auto;  
     
 }
@@ -36,7 +36,7 @@
 }
 .room{
   border-radius: 25px;
-  background-color: #EFEFEF;
+  background-color: #EBE3DD;
 }
 .image-content,
 .room-content{
@@ -54,6 +54,7 @@
 .room-image{
   position: relative;
   height: 250px;
+  width: 100%;
   /* width: 350px; */
   border-radius: 50%;
   background: #FFF;
@@ -82,7 +83,7 @@
   font-size: 16px;
   color: #FFF;
   padding: 8px 16px;
-  background-color: #888888;
+  background-color: #d3ad7c;
   border-radius: 6px;
   margin: 15px 14px 5px 14px;
   cursor: pointer;
@@ -94,7 +95,7 @@
     font-size: 16px;
     color: #FFF;
     padding: 8px 16px;
-    background-color: #888888;
+    background-color: #d3ad7c;
     border-radius: 6px;
     margin: 0px 14px 10px 14px;
     cursor: pointer;
@@ -170,7 +171,7 @@ tbody tr td{
   
     border-left: 0;
     border-right: 0;
-    border-top: 2px solid #9b9b9b;
+    border-top: 2px solid #C9C5BC;
     
 }
 
@@ -184,7 +185,7 @@ tr{
     vertical-align: middle;
     padding-left: 15px;
     max-width: 300px;
-    background-color: #ccc;
+    background-color: #EBE3DD;
     width: 300px;
     font-size: 1.5em;
 
@@ -221,7 +222,7 @@ tr{
     
     .index_sec_habi{
         min-height: 100vh;
-        background-color: #9b9b9b;
+        background-color: #C9C5BC;
         padding: 0;
     
     }
@@ -287,7 +288,7 @@ tr{
 /* Modal Header */
 .modal-header {
   padding: 2px 16px;
-  background-color: #888888;
+  background-color: #F2DEC3;
   color: white;
   text-align: left;
 }
@@ -311,7 +312,7 @@ tr{
 /* Modal Footer */
 .modal-footer {
   padding: 2px 16px;
-  background-color: #888888;
+  background-color: #113339;
   color: white;
   
 }
@@ -323,7 +324,7 @@ tr{
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  border: 1px solid #888;
+  border: 1px solid #EBE3DD;
   width: 80%;
   max-width: 600px;
   /* min-height: 400px; */
@@ -342,7 +343,7 @@ tr{
 }
 
 #table_modal{
-background-color:#d8d8d8; ;
+background-color:#EBE3DD; ;
 width: 100%;
 float: left;
 border-radius: 10px;

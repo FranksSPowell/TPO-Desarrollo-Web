@@ -10,11 +10,11 @@
         <link rel="stylesheet" href="css/swiper-bundle.min.css">
 
         <!-- CSS -->
-        <link rel="stylesheet" href="css/StylePart1.css">
+        <link rel="stylesheet" href="css/html.css"> 
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/tercero.css">
-        <link rel="stylesheet" href="css/html.css"> 
         <link rel="shortcut icon" href="iconos/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/StylePart1.css">
         
         <!-- CSS BOOTSTRAP -->
         <link rel="stylesheet" href="bootstrap-5.2.1-dist/css/bootstrap.css">
@@ -31,8 +31,16 @@
 
     </head>
     <body>
-        <section id="index_sec_menu">
-            <div id="backPhoto" class="contenedor" style="background-image:url('./scr/back.jpg');">
+        <section id="index_sec_menu"  
+            style="
+                background-image:url('./scr/back.jpg');
+                font-family: 'Roboto', sans-serif;
+                position: relative;
+                width: 100%;
+                background-position: center center;
+                background-repeat: repeat-x;
+                background-size: cover;">
+            <div id="backPhoto" class="contenedor" >
 
                 <header class="header">
                     <img class="LogoIMG" src="scr/logoXH.png" alt="">
@@ -125,51 +133,6 @@
             </div>
         </section>
 
-
-        <section id="index_sec_cerc">
-
-            <div class="cerca-container">
-                <div class="cerca-titulo">
-                    <div class="item-0">
-                        <h1>Experiencias</h1>
-                    </div>
-                    <div class="item-0">
-                        <p> Maui ha sido votada con frecuencia como una de las mejores islas del mundo, por eso hay diversas actividades para quienes deseen explorar la isla. Nuestra ubicación inigualable, en la paradisíaca playa de Kaanapali, ofrece los mejores tours de esnórquel, tortugas y aguas tranquilas para disfrutar un día de relax en el mar. Tome la carretera escénica a Hana o experimente el amanecer en la cima de Haleakala. Realice una caminata hasta una cascada o mírelo todo desde arriba durante un recorrido en helicóptero por el Parque Nacional. Las oportunidades son realmente infinitas.
-                        </p>
-                    </div>
-                </div>
-            
-    
-                <div class="cerca-imagenes">
-                    <div class="item-img">
-                        
-                        <img src="scr/cerc/Tortuga.jpg" alt="">
-                        
-                        <div class="item-titulo">
-                            <h3>Turtle Town</h3>
-                        </div>
-                    </div>
-                    <div class="item-img">
-                        
-                        <img src="scr/cerc/playa1.jpg" alt="">
-                        
-                        <div class="item-titulo">
-                            <h3>Kaanapali Beach</h3>
-                        </div>
-                    </div>
-                    <div class="item-img">
-                        
-                        <img src="scr/cerc/Isla.jpg" alt="">
-                        
-                        <div class="item-titulo">
-                            <h3>Parque Nacional Haleakalá</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        
         <section class="index_sec_habi">
             <div>
             <div class="ti"><h1>Habitaciones de Hotel Hoomaha</h1></div>
@@ -308,6 +271,51 @@
         
                         </main>
             </section>
+
+        <section id="index_sec_cerc">
+
+            <div class="cerca-container">
+                <div class="cerca-titulo">
+                    <div class="item-0">
+                        <h1 class="cercat-titulo">Experiencias</h1>
+                    </div>
+                    <div class="item-0">
+                        <p> Maui ha sido votada con frecuencia como una de las mejores islas del mundo, por eso hay diversas actividades para quienes deseen explorar la isla. Nuestra ubicación inigualable, en la paradisíaca playa de Kaanapali, ofrece los mejores tours de esnórquel, tortugas y aguas tranquilas para disfrutar un día de relax en el mar. Tome la carretera escénica a Hana o experimente el amanecer en la cima de Haleakala. Realice una caminata hasta una cascada o mírelo todo desde arriba durante un recorrido en helicóptero por el Parque Nacional. Las oportunidades son realmente infinitas.
+                        </p>
+                    </div>
+                </div>
+            
+    
+                <div class="cerca-imagenes">
+                    <div class="item-img">
+                        
+                        <img src="scr/cerc/Tortuga.jpg" alt="">
+                        
+                        <div class="item-titulo">
+                            <h3>Turtle Town</h3>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        
+                        <img src="scr/cerc/playa1.jpg" alt="">
+                        
+                        <div class="item-titulo">
+                            <h3>Kaanapali Beach</h3>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        
+                        <img src="scr/cerc/Isla.jpg" alt="">
+                        
+                        <div class="item-titulo">
+                            <h3>Parque Nacional Haleakalá</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
 
 
             <section id="sec_form_contact" class="sec-form-contact">
@@ -591,7 +599,7 @@
         
                             <!-- Submit button -->
                             <div class="centrado">
-                                <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>         
+                                <button type="submit" class="btn btn-primary btn-block mb-4 button_submit">Enviar</button>         
                             </div>
                             <div id="alertSuccess"></div>
                             </form>
@@ -651,16 +659,16 @@
 
             <div class="links-contacto">
                 <a href="https://www.google.com.ar/maps/place/Kaanapali+Beach+Hotel/@20.9244276,-156.6957975,17z/data=!3m1!4b1!4m8!3m7!1s0x79552b46b087fde3:0x4dfad5aa8c23a60!5m2!4m1!1i2!8m2!3d20.9244276!4d-156.6936088?hl=es-419">
-                    <i class="fa-solid fa-location-dot"></i>
+                    <i class="fa-solid fa-location-dot link-icon"></i>
                 </a>
                 <a href="tel:942033300">
-                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-phone link-icon"></i>
                 </a>
                 <a href="https://www.reservas@hotelmaui.com">
-                    <i class="fa-regular fa-envelope"></i>
+                    <i class="fa-regular fa-envelope link-icon"></i>
                 </a>
                 <a href="https://www.whatsapp.com">
-                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-whatsapp link-icon"></i>
                 </a>
             </div>
         
