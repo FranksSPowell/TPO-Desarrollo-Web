@@ -1,8 +1,11 @@
+/* Google Fonts - Fasthand */
 @font-face {
-    font-family: "Fasthand" ;
-    src: url('fonts/Fasthand/Fasthand-Regular.ttf');
-   
+    font-family: 'Dancing Script', cursive;
+    src: url('fonts/DancingScript/DancingScript-VariableFont_wght.ttf');
 }
+
+
+
 
 * {
 	margin: 0;
