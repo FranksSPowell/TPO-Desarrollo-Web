@@ -10,11 +10,11 @@
         <link rel="stylesheet" href="css/swiper-bundle.min.css">
 
         <!-- CSS -->
-        <link rel="stylesheet" href="css/StylePart1.css">
+        <link rel="stylesheet" href="css/html.css"> 
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/tercero.css">
-        <link rel="stylesheet" href="css/html.css"> 
         <link rel="shortcut icon" href="iconos/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/StylePart1.css">
         
         <!-- CSS BOOTSTRAP -->
         <link rel="stylesheet" href="bootstrap-5.2.1-dist/css/bootstrap.css">
@@ -27,12 +27,20 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-       
+        <title>Hoomaha Hotel</title>
 
     </head>
     <body>
-        <section id="index_sec_menu">
-            <div id="backPhoto" class="contenedor" style="background-image:url('./scr/back.jpg');">
+        <section id="index_sec_menu"  
+            style="
+                background-image:url('./scr/back.jpg');
+                font-family: 'Roboto', sans-serif;
+                position: relative;
+                width: 100%;
+                background-position: center center;
+                background-repeat: repeat-x;
+                background-size: cover;">
+            <div id="backPhoto" class="contenedor" >
 
                 <header class="header">
                     <img class="LogoIMG" src="scr/logoXH.png" alt="">
@@ -125,17 +133,156 @@
             </div>
         </section>
 
+        <section class="index_sec_habi">
+            <div>
+            <div class="ti"><h1>Habitaciones de Hotel Hoomaha</h1></div>
+            <section class="carousel_container">
+                    <div class="slide-container swiper">
+                        <div class="slide-content">
+                            <div class="room-wrapper swiper-wrapper">
+                                <div class="room swiper-slide">
+                                    <div class="image-content">
+                                    
+                                        <div class="room-image">
+                                            <img src="scr/room/image1.jpg" alt="" class="room-img">
+                                        </div>
+                                    </div>
+
+                                    <div class="room-content">
+                                        <h2 class="name">Habitación Deluxe</h2>
+                                        <p class="description">Habitación de lujo y un elegante baño con ducha emocional</p>
+
+                                        <button onclick="roomDetail(0)" id="room_detail" class="button">DETALLES</button>
+                                        <button class="button1_room" onclick=" window.open('resv.html','_blank')">BUSCAR DISPONIBILIDAD</button>
+                                    </div>
+                                </div>
+                                <div class="room swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+
+                                        <div class="room-image">
+                                            <img src="scr/room/image2.jpg" alt="" class="room-img">
+                                        </div>
+                                    </div>
+
+                                    <div class="room-content">
+                                        <h2 class="name">Habitación Deluxe Doble</h2>
+                                        <p class="description">Alojamiento lujoso y confortable para 2 personas , baño de hidromasaje y ducha con cascada emocional.</p>
+
+                                        <button onclick="roomDetail(1)" id="room_detail" class="button">DETALLES</button>
+                                        <button class="button1_room">BUSCAR DISPONIBILIDAD</button>
+                                    </div>
+                                </div>
+                                <div class="room swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+
+                                        <div class="room-image">
+                                            <img src="scr/room/image3.jpg" alt="" class="room-img">
+                                        </div>
+                                    </div>
+
+                                    <div class="room-content">
+                                        <h2 class="name">Suite</h2>
+                                        <p class="description">Suite de 30 m² para un alojamiento élegante y confortable , baño de hidromasaje y ducha con cascada emocional.</p>
+
+                                        <button onclick="roomDetail(2)" id="room_detail" class="button">DETALLES</button>
+                                        <button class="button1_room" onclick=" window.open('resv.html','_blank')">BUSCAR DISPONIBILIDAD</button>
+                                    </div>
+                                </div>
+                                <div class="room swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+
+                                        <div class="room-image">
+                                            <img src="scr/room/image4.jpg" alt="" class="room-img">
+                                        </div>
+                                    </div>
+
+                                    <div class="room-content">
+                                        <h2 class="name">Gran Suite</h2>
+                                        <p class="description">La gran  Suit es una de nuestra habitacione mas lujosas, baños amplios, servicio a la habitacion y una vista inolvidable.</p>
+
+                                        <button onclick="roomDetail(3)" id="room_detail" class="button">DETALLES</button>
+                                        <button class="button1_room" onclick=" window.open('resv.html','_blank')">BUSCAR DISPONIBILIDAD</button>
+                                    </div>
+                                </div>
+                                <div class="room swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+
+                                        <div class="room-image">
+                                            <img src="scr/room/image5.jpg" alt="" class="room-img">
+                                        </div>
+                                    </div>
+
+                                    <div class="room-content">
+                                        <h2 class="name">Presidential Suite</h2>
+                                        <p class="description">ambiente inolvidable y romántica, decorado con estilo y gusto, baño con ducha de cromoterapia, y jacuzzi.</p>
+
+                                        <button onclick="roomDetail(4)" id="room_detail" class="button">DETALLES</button>
+                                        <button class="button1_room" onclick=" window.open('resv.html','_blank')">BUSCAR DISPONIBILIDAD</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-next swiper-navBtn"></div>
+                        <div class="swiper-button-prev swiper-navBtn"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>    
+                    <main class="contenido">
+                            <table class="table__container">
+                                <thead class="table_head">
+                                    <tr>
+                                        <th colspan="2" class="TableTitle"> Servicios habitacion</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="tbody_table1">
+                                    <tr>
+                                        <td class="columna_1">Exteriores.</td>
+                                        <td class="columna_2">Zona de pícnic, Mobiliario exterior, Terraza / solárium, Barbacoa (de pago), Terraza, Jardín
+                                            .</td>
+                        
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td class="columna_1">Servicio de Playa.</td>
+                                        <td class="columna_2"> Los huéspedes del hotel pueden acceder al club de playa con reposeras y servico de tragos</td>
+                                    </tr>
+            
+                                    <tr>
+                                        <td class="columna_1">Actividades</td>
+                                        <td class="columna_2">Cancha de Squash, tenis y futbol playa. Contamos con servicios de pesca, paseo en catamaran y un exclusiva excursion por la isla.</td>
+                                    </tr>
+            
+                                    <tr>
+                                        <td class="columna_1">Comida & bebida.</td>
+                                        <td class="columna_2">Menús dietéticos (bajo petición), Restaurante (a la carta), Bar, ¡Café fantástico!.</td>
+                                    </tr>
+            
+                                    <tr>
+                                        <td class="columna_1">Oferta de ocio y servicios para familias.</td>
+                                        <td class="columna_2">Niñera / servicios infantiles Servicio de conserjería, Guardaequipaje, Recepción 24 horas </td>
+                                    </tr>
+            
+                                </tbody>
+                            </table>
+        
+                        </main>
+           
+                    </section>
 
         <section id="index_sec_cerc">
 
             <div class="cerca-container">
                 <div class="cerca-titulo">
                     <div class="item-0">
-                        <h1>Experiencias</h1>
+                        <h1 class="cercat-titulo">Experiencias</h1>
                     </div>
                     <div class="item-0">
-                        <p> Maui ha sido votada con frecuencia como una de las mejores islas del mundo, por eso hay diversas actividades para quienes deseen explorar la isla. Nuestra ubicación inigualable, en la paradisíaca 
-                            de Kaanapali, ofrece los mejores tours de esnórquel, tortugas y aguas tranquilas para disfrutar un día de relax en el mar. Tome la carretera escénica a Hana o experimente el amanecer en la cima de Haleakala. Realice una caminata hasta una cascada o mírelo todo desde arriba durante un recorrido en helicóptero por el Parque Nacional. Las oportunidades son realmente infinitas.
+                        <p> Maui ha sido votada con frecuencia como una de las mejores islas del mundo, por eso hay diversas actividades para quienes deseen explorar la isla. Nuestra ubicación inigualable, en la paradisíaca playa de Kaanapali, ofrece los mejores tours de esnórquel, tortugas y aguas tranquilas para disfrutar un día de relax en el mar. Tome la carretera escénica a Hana o experimente el amanecer en la cima de Haleakala. Realice una caminata hasta una cascada o mírelo todo desde arriba durante un recorrido en helicóptero por el Parque Nacional. Las oportunidades son realmente infinitas.
                         </p>
                     </div>
                 </div>
@@ -171,144 +318,6 @@
         </section>
 
         
-        <section class="index_sec_habi">
-            <div>
-            <div class="ti"><h1>Habitaciones de Hotel Hoomaha</h1></div>
-            <section class="carousel_container">
-                    <div class="slide-container swiper">
-                        <div class="slide-content">
-                            <div class="room-wrapper swiper-wrapper">
-                                <div class="room swiper-slide">
-                                    <div class="image-content">
-                                    
-                                        <div class="room-image">
-                                            <img src="scr/room/image1.jpg" alt="" class="room-img">
-                                        </div>
-                                    </div>
-
-                                    <div class="room-content">
-                                        <h2 class="name">Habitación Deluxe</h2>
-                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                                        <button onclick="roomDetail(0)" id="room_detail" class="button">DETALLES</button>
-                                        <button class="button1_room" onclick=" window.open('resv.html','_blank')">BUSCAR DISPONIBILIDAD</button>
-                                    </div>
-                                </div>
-                                <div class="room swiper-slide">
-                                    <div class="image-content">
-                                        <span class="overlay"></span>
-
-                                        <div class="room-image">
-                                            <img src="scr/room/image2.jpg" alt="" class="room-img">
-                                        </div>
-                                    </div>
-
-                                    <div class="room-content">
-                                        <h2 class="name">Habitación Deluxe Doble</h2>
-                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                                        <button onclick="roomDetail(1)" id="room_detail" class="button">DETALLES</button>
-                                        <button class="button1_room">BUSCAR DISPONIBILIDAD</button>
-                                    </div>
-                                </div>
-                                <div class="room swiper-slide">
-                                    <div class="image-content">
-                                        <span class="overlay"></span>
-
-                                        <div class="room-image">
-                                            <img src="scr/room/image3.jpg" alt="" class="room-img">
-                                        </div>
-                                    </div>
-
-                                    <div class="room-content">
-                                        <h2 class="name">Suite</h2>
-                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                                        <button onclick="roomDetail(2)" id="room_detail" class="button">DETALLES</button>
-                                        <button class="button1_room" onclick=" window.open('resv.html','_blank')">BUSCAR DISPONIBILIDAD</button>
-                                    </div>
-                                </div>
-                                <div class="room swiper-slide">
-                                    <div class="image-content">
-                                        <span class="overlay"></span>
-
-                                        <div class="room-image">
-                                            <img src="scr/room/image4.jpg" alt="" class="room-img">
-                                        </div>
-                                    </div>
-
-                                    <div class="room-content">
-                                        <h2 class="name">Gran Suite</h2>
-                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                                        <button onclick="roomDetail(3)" id="room_detail" class="button">DETALLES</button>
-                                        <button class="button1_room" onclick=" window.open('resv.html','_blank')">BUSCAR DISPONIBILIDAD</button>
-                                    </div>
-                                </div>
-                                <div class="room swiper-slide">
-                                    <div class="image-content">
-                                        <span class="overlay"></span>
-
-                                        <div class="room-image">
-                                            <img src="scr/room/image5.jpg" alt="" class="room-img">
-                                        </div>
-                                    </div>
-
-                                    <div class="room-content">
-                                        <h2 class="name">Presidential Suite</h2>
-                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-
-                                        <button onclick="roomDetail(4)" id="room_detail" class="button">DETALLES</button>
-                                        <button class="button1_room" onclick=" window.open('resv.html','_blank')">BUSCAR DISPONIBILIDAD</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-button-next swiper-navBtn"></div>
-                        <div class="swiper-button-prev swiper-navBtn"></div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>    
-                    <main class="contenido">
-                            <table class="table__container">
-                                <thead class="table_head">
-                                    <tr>
-                                        <th colspan="2" class="TableTitle"> Servicios habitacion</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="tbody_table1">
-                                    <tr>
-                                        <td class="columna_1">Lorem.</td>
-                                        <td class="columna_2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, unde.</td>
-                        
-                                    </tr>
-                                    
-                                    <tr>
-                                        <td class="columna_1">Lorem, ipsum.</td>
-                                        <td class="columna_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quis ullam laborum veniam et porro dicta totam sunt voluptatibus incidunt?</td>
-                                    </tr>
-            
-                                    <tr>
-                                        <td class="columna_1">Lorem Lorem</td>
-                                        <td class="columna_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, hic.</td>
-                                    </tr>
-            
-                                    <tr>
-                                        <td class="columna_1">Lorem ipsum dolor sit.</td>
-                                        <td class="columna_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vel minus exercitationem placeat beatae quidem.</td>
-                                    </tr>
-            
-                                    <tr>
-                                        <td class="columna_1">Lorem, ipsum dolor.</td>
-                                        <td class="columna_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus culpa doloribus dolore temporibus itaque saepe ex, quos porro quas, veritatis quam, eius molestiae ad aperiam ullam ea accusantium eaque voluptate. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ipsa repudiandae, sequi quia nihil ad assumenda quos, quo dignissimos accusantium natus. Repellendus sit fugit maiores odio ipsam odit in omnis.lore</td>
-                                    </tr>
-            
-                                </tbody>
-                            </table>
-        
-                        </main>
-            </section>
 
 
             <section id="sec_form_contact" class="sec-form-contact">
@@ -592,7 +601,7 @@
         
                             <!-- Submit button -->
                             <div class="centrado">
-                                <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>         
+                                <button type="submit" class="btn btn-primary btn-block mb-4 button_submit">Enviar</button>         
                             </div>
                             <div id="alertSuccess"></div>
                             </form>
@@ -652,16 +661,16 @@
 
             <div class="links-contacto">
                 <a href="https://www.google.com.ar/maps/place/Kaanapali+Beach+Hotel/@20.9244276,-156.6957975,17z/data=!3m1!4b1!4m8!3m7!1s0x79552b46b087fde3:0x4dfad5aa8c23a60!5m2!4m1!1i2!8m2!3d20.9244276!4d-156.6936088?hl=es-419">
-                    <i class="fa-solid fa-location-dot"></i>
+                    <i class="fa-solid fa-location-dot link-icon" onerror="this.onerror=null;this.src='iconos/periscopio.png'"></i>
                 </a>
                 <a href="tel:942033300">
-                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-phone link-icon" onerror="this.onerror=null;this.src='iconos/telefono.png'"></i>
                 </a>
                 <a href="https://www.reservas@hotelmaui.com">
-                    <i class="fa-regular fa-envelope"></i>
+                    <i class="fa-regular fa-envelope link-icon" onerror="this.onerror=null;this.src='iconos/correo-electronico.png'"></i>
                 </a>
                 <a href="https://www.whatsapp.com">
-                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-whatsapp link-icon" onerror="this.onerror=null;this.src='iconos/whatsapp.png'"></i>
                 </a>
             </div>
         
