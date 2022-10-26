@@ -63,26 +63,27 @@ body {
     flex-direction: row;
     background-color: #EFEFEF;
     border-radius: 25px;
+	min-width: 350px;
 	height: 150px;
     /* align-items: center; */
 	align-items: stretch;
 	box-shadow: 7px 5px 5px rgb(141, 140, 143);
-	
+
 }
 
 .roomContainer{
-    width: 300px;
-    max-height: 300px;
+	width: 220px;
 }
 
 .RoomImgeIMG{
-    width: 100%;
     height: 150px;
+	width: 100%;
     border-radius: 25px 0px 0px 25px;
 }
 
 
 .roomDescription{
+	width: 330px;
     padding-left: 10px;
 
 }
@@ -90,7 +91,8 @@ body {
     background-color: #d3ad7cd4;
     color: #fff;
     text-align: center;
-	min-width: 100px;
+	flex-grow: 1;
+	width: 110px;
     padding-right: 5px;
     border-radius: 0 25px 25px 0;
 	position: relative;
@@ -102,7 +104,7 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	
+
 }
 
 .ResBooton{
@@ -116,7 +118,7 @@ body {
 	border-bottom: 1px solid #C9C5BC
 }
 .RoomLongDesc{
-    font-size: 1em;
+    font-size: .75em;
 }
 
 .contenedor .sidebarRes {
@@ -134,14 +136,14 @@ body {
 	color: #403636;
 }
 
-.SidRow{	
+.SidRow{
 	border-bottom: 2px dotted #C9C5BC;
 	display: flex;
 	flex-direction: column;
 	justify-content:flex-start;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	
+
 }
 
 .DateCheck{
@@ -188,7 +190,7 @@ body {
 	max-width: none;	}
 
     .RoomImgeIMG{
-        width: 100%;
+        width: 180px;
         height: 100%;
         border-radius: 25px 0px 0px 25px;
     }
@@ -199,7 +201,7 @@ body {
     .RoomLongDesc{
         font-size: 0.75em;
     }
-    
+
 }
 
 @media screen and (max-width: 450px){
@@ -222,6 +224,8 @@ body {
 		justify-content: space-between;
         height: 100px;
 		width: 270px;
+		min-width: 270px;
+		margin: auto;
     }
     .RoomLongDesc{
      display: none;
@@ -234,12 +238,13 @@ body {
 		color: #fff;
 		border-radius: 25px 25px 0 0;
 		border: none;
+		width: 100%;
 	}
 	.name{
 		font-size: 1em;
 		border-bottom: none
 	}
-    
+
 	.roomContainer,
     .RoomImgeIMG{
 		display: none;
@@ -254,6 +259,7 @@ body {
 		background-color: #d3ad7c;
 		color: #fff;
 		text-align: center;
+		width: 100%;
 		min-width: 100px;
 		padding-right: 5px;
 		border-radius: 0 0 25px 25PX;
@@ -261,7 +267,7 @@ body {
 	}
 
 	.PreciRoom{
-		margin: 0;		
+		margin: 0;
 		position: relative;
 		top:none;
 		left:none;
